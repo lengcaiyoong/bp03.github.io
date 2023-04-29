@@ -38,7 +38,8 @@ mangaData = mangaData.reduce((acc, cur) => (regex.test(cur) ? acc.push([cur]) : 
 		Object.entries(textObj).sort(([, a], [, b]) => a - b)
 		);
 		//chatgpt = (Object.keys(sortedObject));
-		jisho === true ? navigator.clipboard.writeText((Object.keys(sortedObject)).join("")) : navigator.clipboard.writeText("explain by breaking down: \n\n"+(Object.keys(sortedObject)).join("")); //copy to clipboard
+		jisho === true ? navigator.clipboard.writeText(((Object.keys(sortedObject)).join("")).replace(/\n/g, "")) : navigator.clipboard.writeText("explain by breaking down: \n\n"+((Object.keys(sortedObject)).join("")).replace(/\n/g, "")); //copy to clipboard
+		//jisho === true ? navigator.clipboard.writeText((Object.keys(sortedObject)).join("")) : navigator.clipboard.writeText("explain by breaking down: \n\n"+(Object.keys(sortedObject)).join("")); //copy to clipboard
 }
 
 
