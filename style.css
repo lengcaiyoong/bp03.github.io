@@ -1,0 +1,128 @@
+/* .container { */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  /* margin-left: 20px; */
+/* } */
+
+/* .button { */
+  /* position: relative; */
+  /* width: 50px; */
+  /* height: 50px; */
+  /* border: none; */
+  /* background-color: #f5f5f5; */
+  /* border-radius: 50%; */
+  /* margin-right: 10px; */
+  /* cursor: pointer; */
+/* } */
+
+/* .button:hover { */
+  /* background-color: #e6e6e6; */
+/* } */
+
+/* .button:focus { */
+  /* outline: none; */
+/* } */
+
+/* .red-circle { */
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 0; */
+  /* width: 20px; */
+  /* height: 20px; */
+  /* background-color: red; */
+  /* color: white; */
+  /* border-radius: 50%; */
+  /* display: none; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: 12px; */
+/* } */
+
+/* .button:focus .red-circle { */
+  /* display: flex; */
+/* } */
+
+/* .text { */
+  /* margin-left: 10px; */
+/* } */
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e6e6e6;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.red-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.button:focus .red-circle {
+  display: flex;
+}
+
+.text {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+/* #reset-button { */
+  /* position: fixed; */
+  /* top: 50px; */
+  /* right: 20px; */
+/* } */
+
+#reset-button {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 150px;
+  background-color: yellow;
+  color: red;
+  z-index: 1;
+}
+
+
+#jisho-button {
+  position: -webkit-sticky;
+  position: sticky;
+  /* height: 30px; */
+  background-color: grey;
+  color: white;
+  top: 0;
+  left: 200px;
+  z-index: 1;
+}
