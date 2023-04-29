@@ -101,26 +101,22 @@
 
 
 #reset-button {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 30px;
   left: 140px;
   height: 50px;
   width: 50px;
   background-color: yellow;
   color: red;
-  z-index: 1;
 }
 
 
 #jisho-button {
-  position: -webkit-sticky;
-  position: sticky;
-  background-color: grey;
+  position: fixed;
+  top: 30px;
+  left: 200px;
   height: 50px;
   width: 50px;
+  background-color: grey;
   color: white;
-  top: 0;
-  left: 200px;
-  z-index: 1;
 }
