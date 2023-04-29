@@ -99,15 +99,23 @@
   font-size: 14px;
 }
 
-
 #reset-button {
-  position: fixed;
-  top: 5vw;
-  left: 15vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 150px;
+  background-color: yellow;
+  color: red;
+  z-index: 1;
 }
 
+
 #jisho-button {
-  position: fixed;
-  top: 5vw;
-  left: 21vw;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: grey;
+  color: white;
+  top: 0;
+  left: 200px;
+  z-index: 1;
 }
