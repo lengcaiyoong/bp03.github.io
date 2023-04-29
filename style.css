@@ -100,16 +100,23 @@
 }
 
 
+
 #reset-button {
   position: fixed;
-  top: 50px;
-  right: 50px;
+  top: 5vh;
+  right: 5vw;
 }
+
+/* #reset-button { */
+  /* position: fixed; */
+  /* top: 50px; */
+  /* right: 50px; */
+/* } */
 
 #jisho-button {
   position: fixed;
-  top: 50px;
-  right: 150px;
+  top: 4vw;
+  right: 18vw;
 }
 
 
