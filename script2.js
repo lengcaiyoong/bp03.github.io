@@ -5,22 +5,13 @@ fetch('bp3.txt')
     // Parse the text content into an array
     const dataArray = data.split('\n');
     let mangaData = dataArray
-    console.log(dataArray);
-    console.log(mangaData);
-    console.log(mangaData.length);
-    console.log(mangaData[3]);
-    console.log("first test");
-	
+    	
 
 //Manga Data, split to different pages
 
 const regex = /DLRAW\.NET-\d+/;
 
 mangaData = mangaData.reduce((acc, cur) => (regex.test(cur) ? acc.push([cur]) : acc[acc.length - 1].push(cur), acc), []);
-
-
-console.log(mangaData.length);
-console.log(mangaData[2]);
 
 
 
