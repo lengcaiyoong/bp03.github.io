@@ -99,11 +99,14 @@
   font-size: 14px;
 }
 
+
 #reset-button {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  left: 150px;
+  left: 140px;
+  height: 50px;
+  width: 50px;
   background-color: yellow;
   color: red;
   z-index: 1;
@@ -114,6 +117,8 @@
   position: -webkit-sticky;
   position: sticky;
   background-color: grey;
+  height: 50px;
+  width: 50px;
   color: white;
   top: 0;
   left: 200px;
