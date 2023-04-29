@@ -100,44 +100,14 @@
 }
 
 
-
 #reset-button {
   position: fixed;
-  top: 5vh;
-  right: 5vw;
+  top: 50px;
+  left: 200px;
 }
-
-/* #reset-button { */
-  /* position: fixed; */
-  /* top: 50px; */
-  /* right: 50px; */
-/* } */
 
 #jisho-button {
   position: fixed;
-  top: 4vw;
-  right: 18vw;
+  top: 50px;
+  left: 250px;
 }
-
-
-/* #reset-button { */
-  /* position: -webkit-sticky; */
-  /* position: sticky; */
-  /* top: 0; */
-  /* left: 150px; */
-  /* background-color: yellow; */
-  /* color: red; */
-  /* z-index: 1; */
-/* } */
-
-
-/* #jisho-button { */
-  /* position: -webkit-sticky; */
-  /* position: sticky; */
-  /* height: 30px; */
-  /* background-color: grey; */
-  /* color: white; */
-  /* top: 0; */
-  /* left: 200px; */
-  /* z-index: 1; */
-/* } */
