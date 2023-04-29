@@ -6,9 +6,7 @@ fetch('bp3.txt')
   .then(response => response.text())
   .then(oridata => {
     mangaData = oridata;
-  });
-
-
+ 
 
 //Manga Data, split to different pages
 
@@ -336,3 +334,5 @@ jishobutton.addEventListener("click", () => {
     // "山口つばさ アシスタントさんが連載をすることになり、今からとても楽しみです!うおおー!!!",
     // "結局"
 // ]
+	
+});
