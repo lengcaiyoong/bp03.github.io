@@ -37,7 +37,7 @@ mangaData = mangaData.reduce((acc, cur) => (regex.test(cur) ? acc.push([cur]) : 
 		}
 
 //Get Text Function
-	const getText = (textObj, jisho = false) => {
+	const getText = (textObj, jisho = true) => {
 	  let sortedObject = Object.fromEntries(
 		Object.entries(textObj).sort(([, a], [, b]) => a - b)
 		);
@@ -165,7 +165,7 @@ resetbutton.addEventListener("click", () => {
 //JISHO Button
   
 jishobutton.addEventListener("click", () => {
-	getText(textObj, true) //Get Text
+	getText(textObj, false) //Get Text
   });
 
 
