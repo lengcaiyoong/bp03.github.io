@@ -13,8 +13,10 @@ fetch(filename)
 
 //Manga Data, split to different pages
 
-const regex = /DLRAW\.NET-\d+/;
-
+const regex = /DLRAW\.NET-.+/;
+	//const regex = /DLRAW\.NET-\d+/;
+	
+	
 mangaData = mangaData.reduce((acc, cur) => (regex.test(cur) ? acc.push([cur]) : acc[acc.length - 1].push(cur), acc), []);
 
 
