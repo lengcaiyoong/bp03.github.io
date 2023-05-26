@@ -1,4 +1,8 @@
-fetch('bp3.txt')
+function loadFile() {
+  var filenameInput = document.getElementById('filenameInput');
+  var filename = filenameInput.value;
+
+fetch(filename)
   .then(response => response.text())
   .then(data => {
     
@@ -167,3 +171,4 @@ jishobutton.addEventListener("click", () => {
 
 //end fetch
 }); 
+}
